@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(pexels-donald-tong-55787.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(1rem);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 400px;
+    height:50vh;
+    border: solid 3px black;
+    background: transparent;
+    backdrop-filter: filter;
+    border-radius: 10px;
+    padding: 20px 40px ;
+}
+.wrapper h1{
+    font-size: 40px;
+    font-weight: 40px;
+    text-align: center;
+    color: black;
+}
+
+.wrapper .input_box{
+   width: 100%;
+   height: 50px;
+   margin: 30px 0px;
+}
+.input_box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: solid 3px black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 1rem;
+    color: white;
+
+}
+
+.wrapper .remember{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  margin: -15px o 15px;  
+  margin-bottom: 20px;
+}
+
+.wrapper .remember label{
+    padding-left: 1rem;
+}
+.wrapper .btn{
+    width: 200px;
+    height: 50px;
+    border: solid 3px black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 6rem;
+
+}
+.btn{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    background: lightslategrey;
+    color: black;
+    
+
+}
+.wrapper .register_link{
+    text-align: center;
+    margin-top: 10px;
+}
